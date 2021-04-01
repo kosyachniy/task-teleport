@@ -1,4 +1,6 @@
+import sys
 import json
+import csv
 
 import requests
 
@@ -32,19 +34,30 @@ for postamat in res['results']:
 	else:
 		k[fias_id].add(id_)
 
+postamats = []
+
 for postamat in k:
 	if len(k[postamat]) < 10:
-		print(*k[postamat], sep=' ', end=' ')
+		for id_ in k[postamat]:
+			postamats.append((id_, postamat))
+# 		print(*k[postamat], sep=' ', end=' ')
+# print()
 
-print()
+
+# # 3. Выявить постаматы без address_struct.fias_id
+# for postamat in res['results']:
+# 	if ('location' not in postamat or
+# 			'address_struct' not in postamat['location'] or
+# 			'fias_id' not in postamat['location']['address_struct'] or
+# 			not postamat['location']['address_struct']['fias_id']):
+# 		print(postamat['id'], sep=' ')
+# print()
 
 
-# 3. Выявить постаматы без address_struct.fias_id
-for postamat in res['results']:
-	if ('location' not in postamat or
-			'address_struct' not in postamat['location'] or
-			'fias_id' not in postamat['location']['address_struct'] or
-			not postamat['location']['address_struct']['fias_id']):
-		print(postamat['id'], sep=' ')
+# 4. Output the result in csv format to stdout
 
-print()
+writer = csv.writer(sys.stdout)
+writer.writerow(('id', 'fias_id'))
+
+for postamat in postamats:
+	writer.writerow(postamat)
