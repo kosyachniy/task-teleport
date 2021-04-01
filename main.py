@@ -18,6 +18,12 @@ res = requests.get(LINK, headers=headers).json()
 k = {}
 
 for postamat in res['results']:
+	if ('location' not in postamat or
+			'address_struct' not in postamat['location'] or
+			'fias_id' not in postamat['location']['address_struct'] or
+			not postamat['location']['address_struct']['fias_id']):
+		continue
+
 	id_ = postamat['id']
 	fias_id = postamat['location']['address_struct']['fias_id']
 
@@ -29,5 +35,16 @@ for postamat in res['results']:
 for postamat in k:
 	if len(k[postamat]) < 10:
 		print(*k[postamat], sep=' ', end=' ')
+
+print()
+
+
+# 3. Выявить постаматы без address_struct.fias_id
+for postamat in res['results']:
+	if ('location' not in postamat or
+			'address_struct' not in postamat['location'] or
+			'fias_id' not in postamat['location']['address_struct'] or
+			not postamat['location']['address_struct']['fias_id']):
+		print(postamat['id'], sep=' ')
 
 print()
