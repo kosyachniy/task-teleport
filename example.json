@@ -1,0 +1,2160 @@
+{
+	"count": 112,
+	"next": "http://api-dev.tport.online/v3/stations/?page=2",
+	"current_page": 1,
+	"num_pages": 6,
+	"previous": null,
+	"results": [
+		{
+			"id": 102,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 102",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 102,
+				"name": "Локация 102",
+				"lat": 59.869699,
+				"lng": 30.411741,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, ул.Софийская, 44",
+				"short_address": "ул. Софийская 44",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": null,
+					"house": "44",
+					"okato": "40296562000",
+					"oktmo": "40903000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "192236",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "ул",
+					"street_name": "Софийская"
+				},
+				"description": "Постамат расположен в помещении Аптеки сети \"ГорЗдрав\", 1этаж, вход со двора",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "09:00",
+						"time_close": "21:00"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "09:00",
+						"time_close": "21:00"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "09:00",
+						"time_close": "21:00"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "09:00",
+						"time_close": "21:00"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "09:00",
+						"time_close": "21:00"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "09:00",
+						"time_close": "21:00"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "09:00",
+						"time_close": "21:00"
+					}
+				],
+				"images": [
+					{
+						"id": 78,
+						"name": "",
+						"image": "http://api-dev.tport.online/media/location-images/2020-02-18-07-24-45-178448.png",
+						"prior": 0
+					}
+				]
+			},
+			"cells_count": 25,
+			"width": 0
+		},
+		{
+			"id": 103,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 103",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 103,
+				"name": "Локация 103",
+				"lat": 60.02229,
+				"lng": 30.225031,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, ул. Планерная, 59",
+				"short_address": "ул. Планерная 59",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": null,
+					"house": "59",
+					"okato": "40270566000",
+					"oktmo": "40326000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "197373",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "ул",
+					"street_name": "Планерная"
+				},
+				"description": "Постамат расположен в ТЦ \"Монпансье\", 1 этаж. От главного входа необходимо пройти прямо до вывески \"Зона терминалов\", далее прямо пройти по коридору  в сторону супермаркета PRISMA, справа у стену будет расположен постамат TelePort.",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "10:00",
+						"time_close": "22:00"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "10:00",
+						"time_close": "22:00"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "10:00",
+						"time_close": "22:00"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "10:00",
+						"time_close": "22:00"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "10:00",
+						"time_close": "22:00"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "10:00",
+						"time_close": "22:00"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "10:00",
+						"time_close": "22:00"
+					}
+				],
+				"images": [
+					{
+						"id": 39,
+						"name": "",
+						"image": "http://api-dev.tport.online/media/images/stations/photo_2018-06-08_15-09-53.jpg",
+						"prior": 0
+					}
+				]
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 104,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 104",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 104,
+				"name": "Локация 104",
+				"lat": 59.920922,
+				"lng": 30.491086,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург,Солидарности 11 к.1",
+				"short_address": "пр-кт. Солидарности 11/1 литер б",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": "1",
+					"house": "11",
+					"okato": "40285568000",
+					"oktmo": "40385000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "193312",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "пр-кт",
+					"street_name": "Солидарности"
+				},
+				"description": "Постамат расположен первом этаже напротив магазина АНКОМ",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					}
+				],
+				"images": [
+					{
+						"id": 40,
+						"name": "",
+						"image": "http://api-dev.tport.online/media/images/stations/photo_2018-06-08_15-09-56.jpg",
+						"prior": 0
+					}
+				]
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 105,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 105",
+			"status": "Отключена",
+			"status_code": 102,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 105,
+				"name": "Локация 105",
+				"lat": 60.073491,
+				"lng": 30.333215,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, ул. Валерия Гаврилина, дом 3, корпус 2, парадная №2",
+				"short_address": "ул. Валерия Гаврилина 3/2",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": "2",
+					"house": "3",
+					"okato": "40265558000",
+					"oktmo": "40313000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "194358",
+					"entrance": 2,
+					"city_name": "поселок Парголово",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "ул",
+					"street_name": "Валерия Гаврилина"
+				},
+				"description": "ул. Валерия Гаврилина, д. 3/2, парадная №2",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					}
+				],
+				"images": [
+					{
+						"id": 41,
+						"name": "",
+						"image": "http://api-dev.tport.online/media/images/stations/photo_2018-06-08_15-13-55.jpg",
+						"prior": 0
+					}
+				]
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 106,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 106",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 106,
+				"name": "Локация 106",
+				"lat": 60.023217,
+				"lng": 30.286088,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, Вербная-д.12 к.1",
+				"short_address": "ул. Вербная 12/1",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": "1",
+					"house": "12",
+					"okato": "40270567000",
+					"oktmo": "40327000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "197375",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "ул",
+					"street_name": "Вербная"
+				},
+				"description": "Постамат расположен в помещении Аптеки сети \"ГорЗдрав\", 1 этаж",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					}
+				],
+				"images": [
+					{
+						"id": 84,
+						"name": "",
+						"image": "http://api-dev.tport.online/media/location-images/106/2020-09-15-07-44-04-785088.png",
+						"prior": 1
+					}
+				]
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 107,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 107",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 107,
+				"name": "Локация 107",
+				"lat": 60.007261,
+				"lng": 30.295272,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, Коломяжский проспект, д. 28 лит.А",
+				"short_address": "пр-кт. Коломяжский 28/а",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": null,
+					"house": "28А",
+					"okato": "40270564000",
+					"oktmo": "40324000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "197341",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "пр-кт",
+					"street_name": "Коломяжский"
+				},
+				"description": "Постамат расположен в помещении Аптеки сети \"ГорЗдрав\", 1 этаж",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "09:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "09:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "09:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "09:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "09:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "09:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "09:00",
+						"time_close": "21:59"
+					}
+				],
+				"images": []
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 109,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 109",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 109,
+				"name": "Локация 109",
+				"lat": 60.078701,
+				"lng": 30.344441,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, ул. Фёдора Абрамова, 19/1",
+				"short_address": "ул. Фёдора Абрамова 19/1",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": null,
+					"house": "19/1",
+					"okato": "40265558000",
+					"oktmo": "40313000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "194358",
+					"city_name": "поселок Парголово",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "ул",
+					"street_name": "Фёдора Абрамова"
+				},
+				"description": "Аптека Алоэ. 24 часа.",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					}
+				],
+				"images": []
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 110,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 110",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 110,
+				"name": "Локация 110",
+				"lat": 59.838647,
+				"lng": 30.357083,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, пр-т. Космонавтов, д. 63, кор. 1",
+				"short_address": "пр-кт. Космонавтов 63/1",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": "1",
+					"house": "63",
+					"okato": "40284565000",
+					"oktmo": "40377000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "196158",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "пр-кт",
+					"street_name": "Космонавтов"
+				},
+				"description": "Постамат расположен в  магазине \"Дикси\", 1 этаж.",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "09:00",
+						"time_close": "22:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "09:00",
+						"time_close": "22:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "09:00",
+						"time_close": "22:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "09:00",
+						"time_close": "22:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "09:00",
+						"time_close": "22:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "09:00",
+						"time_close": "22:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "09:00",
+						"time_close": "22:59"
+					}
+				],
+				"images": []
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 111,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 111",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 111,
+				"name": "Локация 111",
+				"lat": 59.845158,
+				"lng": 30.396621,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, ул. Загребский бульвар, д. 9, литера А",
+				"short_address": "б-р. Загребский 9/а",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": null,
+					"house": "9",
+					"okato": "40296564000",
+					"oktmo": "40905000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "192284",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "б-р",
+					"street_name": "Загребский"
+				},
+				"description": "Постамат расположен в помещении Аптеки сети Алоэ, 1 этаж",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					}
+				],
+				"images": []
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 112,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 112",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 112,
+				"name": "Локация 112",
+				"lat": 59.832638,
+				"lng": 30.169163,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, пр.Ветеранов д.140",
+				"short_address": "пр-кт. Ветеранов 140",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": null,
+					"house": "140",
+					"okato": "40279564000",
+					"oktmo": "40357000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "198334",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "пр-кт",
+					"street_name": "Ветеранов"
+				},
+				"description": "Постамат расположен в помещении Аптеки сети \"ГорЗдрав\", 1 этаж",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					}
+				],
+				"images": []
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 115,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 115",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": true,
+			"accept_payments": true,
+			"is_online": false,
+			"location": {
+				"id": 115,
+				"name": "Локация 115",
+				"lat": 59.931512,
+				"lng": 30.465598,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, ул. Кржижановского, 8",
+				"short_address": "ул. Кржижановского 8",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": null,
+					"house": "8",
+					"okato": "40285569000",
+					"oktmo": "40386000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "193231",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "ул",
+					"street_name": "Кржижановского"
+				},
+				"description": "ТЦ \"Ладога\", налево от входа, 1 этаж.",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "00:00",
+						"time_close": "23:59"
+					}
+				],
+				"images": []
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 116,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 116",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 116,
+				"name": "Локация 116",
+				"lat": 59.892772,
+				"lng": 30.323705,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, Лиговский проспект, 272",
+				"short_address": "пр-кт. Лиговский 272",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": null,
+					"house": "272",
+					"okato": "40284561000",
+					"oktmo": "40373000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "196084",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "пр-кт",
+					"street_name": "Лиговский"
+				},
+				"description": "Постамат расположен в магазине \"Цветы\", 1 этаж.",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					}
+				],
+				"images": []
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 119,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 119",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": true,
+			"accept_payments": true,
+			"is_online": false,
+			"location": {
+				"id": 119,
+				"name": "Локация 119",
+				"lat": 60.012752,
+				"lng": 30.272119,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, пр. Королёва, 27 корпус 1",
+				"short_address": "пр-кт. Королёва 27/1",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": "1",
+					"house": "27",
+					"okato": "40270565000",
+					"oktmo": "40325000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "197349",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "пр-кт",
+					"street_name": "Королёва"
+				},
+				"description": "Постамат расположен в цветочном магазине \"DutyFreeFlowers\"",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "10:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "10:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "10:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "10:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "10:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "10:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "10:00",
+						"time_close": "21:59"
+					}
+				],
+				"images": []
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 120,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 120",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 120,
+				"name": "Локация 120",
+				"lat": 59.899062,
+				"lng": 30.512139,
+				"city": null,
+				"address": "Ленинградская область, п.Кудрово, пр. Европейский: д. 9 к.1",
+				"short_address": "пр-кт. Европейский 9/1",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": "1",
+					"house": "9",
+					"okato": "41212812002",
+					"oktmo": "41612155106",
+					"place": null,
+					"office": null,
+					"fias_id": "98cd19c4-e172-4fa3-a81d-7caedeec669b",
+					"zipcode": "188691",
+					"city_name": "г Кудрово",
+					"region_name": "Ленинградская",
+					"street_abbr": "пр-кт",
+					"street_name": "Европейский"
+				},
+				"description": "магазин ЛеМурр",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					}
+				],
+				"images": []
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 121,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 121",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 121,
+				"name": "Локация 121",
+				"lat": 59.873668,
+				"lng": 30.378459,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, Бухарестская ул., д. 72",
+				"short_address": "ул. Бухарестская 72Д",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": null,
+					"house": "72",
+					"okato": "40296561000",
+					"oktmo": "40902000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "192238",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "ул",
+					"street_name": "Бухарестская"
+				},
+				"description": "Салон цветов Duty Free Flowers",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "07:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "07:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "07:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "07:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "07:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "07:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "07:00",
+						"time_close": "21:59"
+					}
+				],
+				"images": []
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 122,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 122",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 122,
+				"name": "Локация 122",
+				"lat": 60.057248,
+				"lng": 30.429759,
+				"city": null,
+				"address": "Ленинградская область, п. Мурино, ул. Шувалова, 16/9",
+				"short_address": "Мурино, ул Шувалова, д 16/9",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": null,
+					"house": "16/9",
+					"okato": "41212828001",
+					"oktmo": "41612428101",
+					"place": null,
+					"office": null,
+					"fias_id": "d73506c5-015c-4c39-929a-696ea8144e16",
+					"zipcode": "188662",
+					"city_name": "поселок Мурино",
+					"region_name": "Ленинградская",
+					"street_abbr": "ул",
+					"street_name": "Шувалова"
+				},
+				"description": "Постамат расположен в  магазине \"Двери Гранит\", 1 этаж",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "10:00",
+						"time_close": "20:59"
+					}
+				],
+				"images": [
+					{
+						"id": 42,
+						"name": "",
+						"image": "http://api-dev.tport.online/media/images/stations/photo_2018-06-08_15-14-01.jpg",
+						"prior": 0
+					}
+				]
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 123,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 123",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 123,
+				"name": "Локация 123",
+				"lat": 60.048864,
+				"lng": 30.33321,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, проспект Энгельса, 133А",
+				"short_address": "пр-кт. Энгельса 133/1",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": null,
+					"house": "133А",
+					"okato": "40265565000",
+					"oktmo": "40318000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "194356",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "пр-кт",
+					"street_name": "Энгельса"
+				},
+				"description": "Постамат расположен в помещении Аптеки сети \"ГорЗдрав\", 1 этаж, рядом со входом в супермаркет \"Лайм\"",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "10:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "10:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "10:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "10:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "10:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "09:00",
+						"time_close": "20:59"
+					}
+				],
+				"images": []
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 124,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 124",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 124,
+				"name": "Локация 124",
+				"lat": 59.950551,
+				"lng": 30.221279,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, Новосмоленская наб. 1 кор.1",
+				"short_address": "наб. Новосмоленская 1/1",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": "1",
+					"house": "1",
+					"okato": "40263565000",
+					"oktmo": "40311000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "199397",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "наб",
+					"street_name": "Новосмоленская"
+				},
+				"description": "Постамат расположен в магазине \"Добрый Фермер\", 1 этаж.",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "09:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "09:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "09:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "09:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "09:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "09:00",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "09:00",
+						"time_close": "21:59"
+					}
+				],
+				"images": []
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 125,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 125",
+			"status": "Временно отключена",
+			"status_code": 101,
+			"accept_cash": false,
+			"accept_card": false,
+			"accept_payments": false,
+			"is_online": false,
+			"location": {
+				"id": 125,
+				"name": "Локация 125",
+				"lat": 59.980987,
+				"lng": 30.388017,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, Кондратьевский пр. д.62 к.6",
+				"short_address": "пр-кт. Кондратьевский 62/6",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": "6",
+					"house": "62",
+					"okato": "40273565000",
+					"oktmo": "40332000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "195271",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "пр-кт",
+					"street_name": "Кондратьевский"
+				},
+				"description": "Постамат расположен в пекарне \"Хлебушек 88\" 1 этаж. Вход с торца дома со стороны Лабораторной улицы.",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "10:00",
+						"time_close": "21:00"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "10:00",
+						"time_close": "21:00"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "10:00",
+						"time_close": "21:00"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "10:00",
+						"time_close": "21:00"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "10:00",
+						"time_close": "21:00"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "10:00",
+						"time_close": "21:00"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "10:00",
+						"time_close": "21:00"
+					}
+				],
+				"images": []
+			},
+			"cells_count": 15,
+			"width": 0
+		},
+		{
+			"id": 126,
+			"external_id": "",
+			"is_automated": true,
+			"name": "Teleport 126",
+			"status": "Работает",
+			"status_code": 100,
+			"accept_cash": false,
+			"accept_card": true,
+			"accept_payments": true,
+			"is_online": false,
+			"location": {
+				"id": 126,
+				"name": "Локация 126",
+				"lat": 59.872672,
+				"lng": 30.47149,
+				"city": {
+					"id": 1,
+					"name": "Санкт-Петербург",
+					"slug": "spb",
+					"lat": 59.92,
+					"lng": 30.32
+				},
+				"address": "Санкт-Петербург, Октябрьская наб., 90, корп. 5",
+				"short_address": "наб. Октябрьская 90/5",
+				"address_struct": {
+					"case": null,
+					"flat": null,
+					"vlad": null,
+					"build": "5",
+					"house": "90",
+					"okato": "40285565000",
+					"oktmo": "40382000",
+					"place": null,
+					"office": null,
+					"fias_id": "c2deb16a-0330-4f05-821f-1d09c93331e6",
+					"zipcode": "193079",
+					"city_name": "г Санкт-Петербург",
+					"region_name": "Санкт-Петербург",
+					"street_abbr": "наб",
+					"street_name": "Октябрьская"
+				},
+				"description": "Постамат расположен в универсаме \"Магнит\", 2 этаж",
+				"working_hours": [
+					{
+						"dow": 0,
+						"schedule": "manual",
+						"name": "Понедельник",
+						"short_name": "Пн",
+						"time_open": "08:30",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 1,
+						"schedule": "manual",
+						"name": "Вторник",
+						"short_name": "Вт",
+						"time_open": "08:30",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 2,
+						"schedule": "manual",
+						"name": "Среда",
+						"short_name": "Ср",
+						"time_open": "08:30",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 3,
+						"schedule": "manual",
+						"name": "Четверг",
+						"short_name": "Чт",
+						"time_open": "08:30",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 4,
+						"schedule": "manual",
+						"name": "Пятница",
+						"short_name": "Пт",
+						"time_open": "08:30",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 5,
+						"schedule": "manual",
+						"name": "Суббота",
+						"short_name": "Сб",
+						"time_open": "08:30",
+						"time_close": "21:59"
+					},
+					{
+						"dow": 6,
+						"schedule": "manual",
+						"name": "Воскресенье",
+						"short_name": "Вс",
+						"time_open": "08:30",
+						"time_close": "21:59"
+					}
+				],
+				"images": []
+			},
+			"cells_count": 15,
+			"width": 0
+		}
+	]
+}
