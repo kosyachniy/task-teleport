@@ -44,17 +44,18 @@ for postamat in k:
 # print()
 
 
-# # 3. Выявить постаматы без address_struct.fias_id
-# for postamat in res['results']:
-# 	if ('location' not in postamat or
-# 			'address_struct' not in postamat['location'] or
-# 			'fias_id' not in postamat['location']['address_struct'] or
-# 			not postamat['location']['address_struct']['fias_id']):
+# 3. Выявить постаматы без address_struct.fias_id
+for postamat in res['results']:
+	if ('location' not in postamat or
+			'address_struct' not in postamat['location'] or
+			'fias_id' not in postamat['location']['address_struct'] or
+			not postamat['location']['address_struct']['fias_id']):
+		postamats.append((postamat['id'], ''))
 # 		print(postamat['id'], sep=' ')
 # print()
 
 
-# 4. Output the result in csv format to stdout
+# 4. Вывести в stdout результат в формате csv
 
 writer = csv.writer(sys.stdout)
 writer.writerow(('id', 'fias_id'))
